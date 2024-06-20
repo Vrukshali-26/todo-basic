@@ -1,0 +1,23 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsc -b && node dist/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "dotconfig": "^0.0.1-security",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "json-parser": "^3.1.2",
+        "mongoose": "^8.4.1"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/mongoose": "^5.11.97"
+    }
+}
